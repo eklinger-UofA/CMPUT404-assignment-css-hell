@@ -1,8 +1,45 @@
 /* css added my me */
 
+/* Themed page with paper-like background */
+/* paper 1,3,4 looked pretty good*/
+body { background-image: url("../paperImages/paper1.gif");
+       font-family: Baskerville, "Times New Roman", Times, serif; }
+
+/* theme paragraphs */
+/* 
+p {margin-top:.2em;text-align:justify;margin-bottom:.2em;text-indent:4%;}
+p {margin-top: .75em; text-align: justify; margin-bottom: .75em;}
+*/
+p { margin-top: .75em;
+    margin-bottom: .75em;
+    text-align: justify;}
+
+/* theme headers */
+h1 { text-align: center; }
+h2 { text-align: center; }
+h3 { text-align: center; }
+h4 { text-align: center; }
+h5 { text-align: center; }
+h6 { text-align: center; }
+
+/* theme images*/
+/* theme image captions*/
+.figcaption { text-align: center; 
+              text-decoration: underline;
+              font-style: italic;
+              font-size: 110%; }
+          
+
+
+/* Need to update readme with modifications */
+
+/* Take three screne captures, in firefox running modified pages */
+
 /* end of css added by me */
 
 /* style provided and borrowed from original html files of all three html */
+
+/* Borrowed from the dracula.html file
 p {margin-top:.2em;text-align:justify;margin-bottom:.2em;text-indent:4%;}
 
 .c {text-align:center;text-indent:0%;}
@@ -71,4 +108,202 @@ margin-left:auto;margin-right:auto;text-align:center;text-indent:0%;}
 .poem .stanza     {margin-top: 1em;margin-bottom:1em;}
 .poem span.i0     {display: block; margin-left: 0em; padding-left: 3em; text-indent: -3em;}
 .poem span.i4     {display: block; margin-left: 2em; padding-left: 3em; text-indent: -3em;}
+*/
 
+/* borrowed from the iliad html file
+  The Gnutenberg Press - default CSS2 stylesheet
+
+  Any generated element will have a class "tei" and a class "tei-elem"
+  where elem is the element name in TEI. 
+  The order of statements is important !!! 
+
+  .tei                            { margin: 0; padding: 0; 
+                                  font-size: 100%; font-weight: normal; font-style: normal }
+
+  .block                          { display: block; }
+  .inline                         { display: inline; }
+  .floatleft                      { float: left;  margin: 1em 2em 1em 0; }
+  .floatright                     { float: right; margin: 1em 0 1em 2em; }
+  .shaded                         { margin-top: 1em; margin-bottom: 1em; 
+                                  padding: 1em; background-color: #eee; }
+  .boxed                          { margin-top: 1em; margin-bottom: 1em; 
+                                  padding: 1em; border: 1px solid black; }
+
+  body.tei                        { margin: 4ex 10%; text-align: justify }
+  div.tei                         { margin: 2em 0em }
+  p.tei                           { margin: 0em 0em 1em 0em; text-indent: 0em; }
+  blockquote.tei                  { margin: 2em 4em }
+
+  div.tei-lg                      { margin: 1em 0em; }
+  div.tei-l                       { margin: 0em; text-align: left; }
+  div.tei-tb                      { text-align: center; }
+  div.tei-epigraph                { margin: 0em 0em 1em 10em; }
+  div.tei-dateline                { margin: 1ex 0em; text-align: right }
+  div.tei-salute                  { margin: 1ex 0em; }
+  div.tei-signed                  { margin: 1ex 0em; text-align: right }
+  div.tei-byline                  { margin: 1ex 0em; }
+
+                                calculate from size of body = 80%
+  div.tei-marginnote              { margin: 0em 0em 0em -12%; width: 11%; float: left; }
+
+  div.tei-sp                      { margin: 1em 0em 1em  2em }
+  div.tei-speaker                 { margin: 0em 0em 1em -2em;
+                                  font-weight: bold; text-indent: 0em }
+  div.tei-stage                   { margin: 1em 0em; font-weight: normal; font-style: italic }
+  span.tei-stage                  { font-weight: normal; font-style: italic }
+
+  div.tei-eg                      { padding: 1em; 
+                                  color: black; background-color: #eee }
+
+  hr.doublepage                   { margin: 4em 0em; height: 5px; }
+  hr.page                         { margin: 4em 0em; height: 2px; }
+
+  ul.tei-index                    { list-style-type: none }
+
+  dl.tei                          { margin: 1em 0em }
+
+  dt.tei-notelabel                { font-weight: normal; text-align: right; 
+                                  float: left; width: 3em }
+  dd.tei-notetext                 { margin: 0em 0em 1ex 4em }
+
+  span.tei-pb                     { position: absolute; left: 1%; width: 8%;
+                                  font-style: normal; }
+
+  span.code                       { font-family: monospace; font-size: 110%; }
+
+  ul.tei-castlist                 { margin: 0em; list-style-type: none }
+  li.tei-castitem                 { margin: 0em; }
+  table.tei-castgroup             { margin: 0em; }
+  ul.tei-castgroup                { margin: 0em; list-style-type: none; 
+                                  padding-right: 2em; border-right: solid black 2px; }
+  caption.tei-castgroup-head      { caption-side: right; width: 50%; text-align: left; 
+                                  vertical-align: middle; padding-left: 2em; }
+  *.tei-roledesc                  { font-style: italic }
+  *.tei-set                       { font-style: italic }
+
+  table.rules                     { border-collapse: collapse; }
+  table.rules caption,
+  table.rules th,
+  table.rules td                  { border: 1px solid black; }
+
+  table.tei                       { border-collapse: collapse; }
+  table.tei-list                  { width: 100% }
+
+  th.tei-head-table               { padding: 0.5ex 1em }
+
+  th.tei-cell                     { padding: 0em 1em }
+  td.tei-cell                     { padding: 0em 1em }
+
+  td.tei-item                     { padding: 0; font-weight: normal; 
+                                  vertical-align: top; text-align: left; }
+  th.tei-label,
+  td.tei-label                    { width: 3em; padding: 0; font-weight: normal; 
+                                  vertical-align: top; text-align: right; }
+
+  th.tei-label-gloss,
+  td.tei-label-gloss              { text-align: left }
+
+  td.tei-item-gloss,
+  th.tei-headItem-gloss           { padding-left: 4em; }       
+
+  img.tei-formula                 { vertical-align: middle; }
+*/
+
+/* Style borrowed from the myths and legends html file 
+    p {margin-top: .75em; text-align: justify; margin-bottom: .75em;}
+    p.break {margin-top: 2em;} for thought breaks
+
+    h1 {text-align: center; clear: both; font-weight: normal; margin-top: 3em;}
+    h2 {text-align: center; clear: both; margin-top: 2em; font-weight: normal;}
+
+    div.centered table {margin-left: auto; margin-right: auto;}
+
+    body {margin-left: 10%; margin-right: 10%;}
+
+    a   {text-decoration: none;}
+
+    img {border: none;}
+
+    .hidden {display: none;}
+
+    .pagenum  { position: absolute;
+                left: 92%;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: normal;
+                font-size: smaller;
+                text-align: right;
+                text-indent: 0em;
+              } 
+    .amends {margin-left: 5%; margin-right: 5%;}
+
+    .bbox     {border: 2px black solid; padding: 1em; margin-top: 3em; margin-bottom: 3em;}
+
+    .center   {text-align: center;}
+    .smcap    {font-variant: small-caps;}
+
+    .dropcap  {float: left; width: auto; padding-right: 3px; font-size: 350%; line-height: 83%;}
+
+    .capleft {font-style: italic; text-align: left; font-size: 90%; padding-bottom: .5em;}
+    .caption  {font-variant: small-caps; text-align: center; margin-top: .5em;}
+    .subcaption {font-size: 90%; text-align: center; padding-bottom: 2em;}
+    .captionpad  {font-variant: small-caps; text-align: center; margin-top: .5em; padding-bottom: 2em;}
+
+    .figcenter   {margin: auto; text-align: center; padding-top: 2em;}
+
+    .footnote         {margin-left: 5%; margin-right: 5%; font-size: 0.9em;}
+    .footnote .label  {text-align: left; padding-right: .3em;}
+    .fnanchor         {vertical-align: .2em; font-size: .8em; text-decoration: none; font-style: normal;}
+
+    .poemcenter       {text-align: center;}
+    .poem             {margin-left:3%; margin-right:3%; text-align: left; display: inline-block;}
+    .poem br          {display: none;}
+    .poem .stanza     {margin: 1em 0em 1em 0em;}
+    .poem span.i0     {display: block; margin-left: 0em; padding-left: 3em; text-indent: -3em;}
+    .poem span.i2     {display: block; margin-left: 2em; padding-left: 3em; text-indent: -3em;}
+    .poem span.i4     {display: block; margin-left: 4em; padding-left: 3em; text-indent: -3em;}
+    .poem span.i7     {display: block; margin-left: 7em; padding-left: 3em; text-indent: -3em;}
+    .credit           {display: block; margin-left: 10em; padding-left: 3em; text-indent: -3em;}
+    .spacer           {padding-left: .5em; padding-right: .5em;}
+
+    .tdl      {text-align: left; vertical-align: top; padding-left: 1em; text-indent: -1em; padding-right: 1em;} 
+    .tdr      {text-align: right; vertical-align: bottom;} 
+
+    .signed {text-align: right; margin-right: 2em;} 
+
+    .lrgfont {font-size: 120%;}
+    .smlfont {font-size: 90%;}
+    .vsmlfont {font-size: 75%;}
+    .tinyfont {font-size: 60%;}
+
+    .author {text-align: center; margin-top: 2em;}
+    .tpcontent {text-align: center; margin-top: 2em; margin-bottom: 2em;}
+    .copyright {text-align: center; margin-top: 3em; margin-bottom: 3em; font-size: 75%;}
+    .bookbox {width: 25em; margin: auto; max-width: 96%; font-size: 85%; border: 2px black solid; padding: 1em; margin-top: 2em; margin-bottom: 2em;}
+    .hang {margin-left: 1em; text-indent: -1em;}
+    .months {margin-left: 3em;}
+    .nation {text-align: right; margin-right: 1em; font-style: italic;}
+    .reptitle {text-align: center; margin-top: 2em; margin-bottom: 2em; font-size: 200%;}
+    .titlep {margin-top: 2em;}
+
+@media print, handheld
+{
+  body {margin-left: 2%; margin-right: 2%;}
+  h2.nobreak {page-break-before: avoid;}
+  .titlep, .bookbox  {page-break-before: always; page-break-after: always;}
+  h2, .bbox, .reptitle {page-break-before: always;}
+  .pagenum {visibility: hidden;}
+}
+
+@media handheld
+{
+    .figcenter {padding-top: .5em;}
+    .poem {margin-left: 3%; margin-right: 3%; text-align: left;}
+    h1 {margin-top: 0em;}
+    .tpcontent {text-align: center; margin-top: .5em; margin-bottom: .5em;}
+    .author {text-align: center; margin-top: .5em;}
+
+}
+
+    </style-->
+*/
