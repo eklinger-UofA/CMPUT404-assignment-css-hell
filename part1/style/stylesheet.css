@@ -1,39 +1,39 @@
 /* css added my me */
 
 /* Themed page with paper-like background */
-/* paper 1,3,4 looked pretty good*/
+/* Paper gif source added to README */
 body { background-image: url("../paperImages/paper1.gif");
-       font-family: Baskerville, "Times New Roman", Times, serif; }
+       font-family: Baskerville, "Times New Roman", Times, serifpageContent; }
+
+.pageContent { width: 750px;
+                margin-left: auto;
+            margin-right: auto; }
 
 /* theme paragraphs */
-/* 
-p {margin-top:.2em;text-align:justify;margin-bottom:.2em;text-indent:4%;}
-p {margin-top: .75em; text-align: justify; margin-bottom: .75em;}
-*/
 p { margin-top: .75em;
     margin-bottom: .75em;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;}
 
 /* theme headers */
-h1 { text-align: center; }
-h2 { text-align: center; }
-h3 { text-align: center; }
-h4 { text-align: center; }
-h5 { text-align: center; }
-h6 { text-align: center; }
+h1 { text-align: left; }
+h2 { text-align: left; }
+h3 { text-align: left; }
+h4 { text-align: left; }
+h5 { text-align: left; }
+h6 { text-align: left; }
 
 /* theme images*/
+.figcenter { margin-left: auto;
+             margin-right: auto;
+             text-align: center; } 
 /* theme image captions*/
 .figcaption { text-align: center; 
-              text-decoration: underline;
               font-style: italic;
-              font-size: 110%; }
-          
+              font-size: 90%; }
 
-
-/* Need to update readme with modifications */
-
-/* Take three screne captures, in firefox running modified pages */
+/* Take three screen captures, in firefox running modified pages */
 
 /* end of css added by me */
 
