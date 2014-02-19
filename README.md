@@ -19,7 +19,11 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
-Code is licensed under the Apache 2.0 license.
+Code is licensed under the Apache 2.0 license.o
+
+Eric Klinger
+
+No Colaborators on this assingment
 
 PART 1
 ======
@@ -42,3 +46,10 @@ Changelog:
 
 Paper image background paper1.gif
 Taken from: http://www.google.ca/imgres?sa=X&espvd=210&es_sm=91&biw=1602&bih=934&tbm=isch&tbnid=_3DHx038YOIUqM%3A&imgrefurl=http%3A%2F%2Fwww.sitioparapruebas.com.ar%2Falumnos%2Fandres_gonzalez_%2F18%2Fpaper-gif&docid=0zugVIS0Dsb4HM&imgurl=http%3A%2F%2Fsenderek.com%2Fpcp%2Frelease%2Fdoc%2Fimg%2Fpaper.gif&w=256&h=256&ei=6rgDU6-YCcPloATF04DwBw&zoom=1&ved=0CMYCEIQcMEk&iact=rc&dur=1162&page=3&start=73&ndsp=39
+
+PART 2
+======
+
+No css was borrowed from other sources. Used tutorials from W3schools to guide html assignment and design of css
+
+All images taken from non-copyright sources. Most were modified for size only to fit pixel dimensions
