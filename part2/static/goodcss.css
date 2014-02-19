@@ -1,0 +1,129 @@
+/* classes */
+.pagebody {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.topheader {
+    background-image: url('../images/wood.jpeg');
+    background-repeat: repeat-x;
+    height: 50px;
+}
+
+.mainheader {
+    background-image: url('../images/background.png');
+    background-repeat: repeat-x;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.name {
+    color: Yellow;
+    font-size: 300%;
+}
+
+.title {
+    color: Yellow;
+    font-style: italic;
+    font-size: 150%;
+}
+
+.contentpane {
+    height:auto;
+    width:800px;
+    float:left;
+    background-color: White;
+}
+
+.contentitem {
+    height: 220px;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url('../images/150x150stock.png');
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contentitem1{
+    background-image: url('../images/computer.jpg');
+}
+
+.contentitem2{
+    background-image: url('../images/pro.jpg');
+}
+
+.contentitem3{
+    background-image: url('../images/handshake.jpg');
+}
+
+.leftbackground {
+    background-position: 50px 50px; 
+}
+
+.rightbackground {
+    background-position: 600px 50px; 
+}
+
+.contentparagraph {
+    width: 500px;
+    height: auto;
+}
+
+.leftcontent {
+    float: left;
+}
+
+.rightcontent {
+    float: right;
+}
+
+.sidebar {
+    background-color: Silver;
+    height:750px;
+    width:200px;
+    float:right;
+    text-align: center;
+}
+
+.sidebartitle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-image: url('../images/wood.jpeg');
+    background-repeat: repeat-x;
+    height: 20px;
+}
+
+/* html elements */
+
+body {
+    background-color: DimGray;
+    font-family: Baskerville, Times, serif;
+}
+
+h1 { margin-bottom: 0; }
+h2 { margin-bottom: 0; }
+h3 { margin-bottom: 0; }
+h4 { margin-bottom: 0; }
+h5 { margin-bottom: 0; }
+h6 { margin-bottom: 0; }
+
+p.content {
+    width: 600px;
+    height: 150px;
+}
